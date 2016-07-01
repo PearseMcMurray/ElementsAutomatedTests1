@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" configfailurepolicy="continue" verbose="10">
+  <parameter name="verticalScrollPixels" value="-200"/>
+  <parameter name="startingUrl" value="http://elements.hpswlabs.hp.com/dev_preview/"/>
+  <parameter name="implicitWaitTimeMS" value="5000"/>
+  <parameter name="displayWaitTimeMS" value="2000"/>
+  <parameter name="chromeDriverLocation" value="C:\\chromedriver.exe"/>
+  <parameter name="IEDriverLocation" value="C:\\IEdriverServer.exe"/>
+  
+  <!-- <test name="Chrome-CSS-Buttons">
+    <parameter name="browser" value="Chrome"/>
+	<classes>
+	   <class name="CSS.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+  
+  <test name="Chrome-CSS-CheckBoxes">
+    <parameter name="browser" value="Chrome"/>
+	<classes>
+       <class name="CSS.Components.InputControls.CheckBox.CheckBoxes"></class>
+    </classes>
+  </test>
+  
+  <test name="Chrome-CSS-RadioButtons">
+    <parameter name="browser" value="Chrome"/>
+	<classes>
+	   <class name="CSS.Components.InputControls.RadioButton.RadioButtons"></class>
+    </classes>
+  </test>
+  
+  <test name="Chrome-Angular-Buttons">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+	   <class name="Angular.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+  
+  <test name="Chrome-Angular-CheckBoxes">
+    <parameter name="browser" value="Chrome"/>
+	<classes>
+       <class name="Angular.Components.InputControls.CheckBox.Checkbox"></class>
+    </classes>
+  </test> -->
+  
+  <test name="Chrome-Angular-RadioButtons">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+	   <class name="Angular.Components.InputControls.RadioButton.RadioButton"></class>
+    </classes>
+  </test>
+  
+  <!-- <test name="Firefox-CSS-Buttons">
+    <parameter name="browser" value="Firefox"/>
+	<classes>
+	   <class name="CSS.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+
+  <test name="Firefox-CSS-CheckBoxes">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="CSS.Components.InputControls.CheckBox.CheckBoxes"></class>
+    </classes>
+  </test>
+  
+  <test name="Firefox-CSS-RadioButtons">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+	   <class name="CSS.Components.InputControls.RadioButton.RadioButtons"></class>
+    </classes>
+  </test>
+  
+  <test name="Firefox-Angular-Buttons">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+	   <class name="Angular.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+  
+  <test name="Firefox-Angular-CheckBoxes">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="Angular.Components.InputControls.CheckBox.Checkbox"></class>
+    </classes>
+  </test>
+  
+  <test name="Firefox-Angular-RadioButtons">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+	   <class name="Angular.Components.InputControls.RadioButton.RadioButton"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-CSS-Buttons">
+    <parameter name="browser" value="IE"/>
+	<classes>
+	   <class name="CSS.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-CSS-CheckBoxes">
+    <parameter name="browser" value="IE"/>
+    <classes>
+       <class name="CSS.Components.InputControls.CheckBox.CheckBoxes"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-CSS-RadioButtons">
+    <parameter name="browser" value="IE"/>
+    <classes>
+	   <class name="CSS.Components.InputControls.RadioButton.RadioButtons"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-Angular-Buttons">
+    <parameter name="browser" value="IE"/>
+    <classes>
+	   <class name="Angular.Components.Buttons.Buttons"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-Angular-CheckBoxes">
+    <parameter name="browser" value="IE"/>
+    <classes>
+       <class name="Angular.Components.InputControls.CheckBox.Checkbox"></class>
+    </classes>
+  </test>
+  
+  <test name="IE-Angular-RadioButtons">
+    <parameter name="browser" value="IE"/>
+    <classes>
+	   <class name="Angular.Components.InputControls.RadioButton.RadioButton"></class>
+    </classes>
+  </test> -->  
+</suite>
+
